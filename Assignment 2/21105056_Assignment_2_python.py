@@ -19,7 +19,7 @@ print("\na. Lenght of the entered string is:", lenght, "\n")
 
 # Part (b)
 
-rev = (a[::-1])
+rev = (a[::-1])   #Reversed
 print("b. Reversed Order of String:", rev, "\n")
 
 
@@ -36,7 +36,7 @@ print("d. Repalced String is:", X, "\n")
 
 # Part (e)
 
-sub_index = a.index("a")
+sub_index = a.index("a")     #Substring
 print("e. Index of Substring 'a' is:", sub_index, "\n")
 
 # Part 5
