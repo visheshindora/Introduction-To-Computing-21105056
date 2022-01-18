@@ -14,7 +14,7 @@ a = input("Type Your String: ")  # a = String
 # Part (a)
 
 lenght = len(a)
-print("\na. Lenght of the entered is:", lenght, "\n")
+print("\na. Lenght of the entered string is:", lenght, "\n")
 
 
 # Part (b)
@@ -58,7 +58,7 @@ print("Your String with no spaces", no_space)
 
 
 
-print("\n\n\n\n\nQues.2\n\n")
+print("\n\n\n\n\nQues.2}\n\n")
 name = "Vishesh Indora"
 sid = 21105056
 dept = "ECE"
@@ -79,7 +79,7 @@ print("Hey,", name, "Here!\n"
 
 # 3rd Program
 
-print("\n\n\n\n\nQues.3\n\n")
+print("\n\n\n\n\nQues.3}\n\n")
 a = 56
 b = 10
 
@@ -119,7 +119,7 @@ print("e. Right Shift of 'a' by 2 bits = ", a >> 2, "\n"
 # Program 4
 
 
-print("\n\n\n\n\nQues.4\n\n")
+print("\n\n\n\n\nQues.4}\n\n")
 
 print("Enter three numbers to find the greatest number:-")
 
@@ -149,7 +149,7 @@ print("\nGreatest Number is:", greatest)
 # PROGRAM 5
 
 
-print("\n\n\n\n\nQues.5\n\n")
+print("\n\n\n\n\nQues.5}\n\n")
 print("Enter a sentence to know wheather it contain 'name'or not:-\n")
 
 sen = input("Enter Your Sentence: ")
@@ -171,7 +171,7 @@ else:
 
 # PROGRAM 6
 
-print("\n\n\n\n\nQues.6\n\n")
+print("\n\n\n\n\nQues.6}\n\n")
 
 print("Enter three lengths to se wheather a triangle can be formed from these lenghts or not:-\n")
 x = float(input("Length of First Side of Triangle = "))
