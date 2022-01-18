@@ -62,7 +62,7 @@ print("\n\n\n\n\nQues.2}\n\n")
 name = "Vishesh Indora"
 sid = 21105056
 dept = "ECE"
-cg = 8.5
+cg = 8.5     #CGPA
 
 print("Hey,", name, "Here!\n"
                     "My SID is", sid, "\n"
@@ -152,7 +152,7 @@ print("\nGreatest Number is:", greatest)
 print("\n\n\n\n\nQues.5}\n\n")
 print("Enter a sentence to know wheather it contain 'name'or not:-\n")
 
-sen = input("Enter Your Sentence: ")
+sen = input("Enter Your Sentence: ")  #Sentence
 remark = "Does this sentence contain word 'name' :"
 
 if "name" in sen:
