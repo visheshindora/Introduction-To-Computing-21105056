@@ -58,16 +58,17 @@ print("Your String with no spaces", no_space)
 
 
 
-print("\n\n\n\n\nQues.2}\n\n")
-name = "Vishesh Indora"
-sid = 21105056
-dept = "ECE"
-cg = 8.5     #CGPA
 
-print("Hey,", name, "Here!\n"
-                    "My SID is", sid, "\n"
-                                      "I am from", dept, "Department and my CGPA is", cg)
+# Data Entry By User
 
+name = input("Enter Your Name: ")
+sid = int(input("Enter Your SID: "))
+dept = input("Enter Your Department: ")
+cg = int(input("Enter Your CGPA: "))
+
+print("Hey, %s Here!\n"
+      "My SID is %s\n"
+      "I am from %s Department and My CGPA is %s" % (name,sid,dept,cg))
 
 
 
