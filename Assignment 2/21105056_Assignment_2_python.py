@@ -67,8 +67,8 @@ dept = input("Enter Your Department: ")
 cg = float(input("Enter Your CGPA: "))
 
 print("Hey, %s Here!\n"
-      "My SID is %s\n"
-      "I am from %s Department and My CGPA is %s" % (name,sid,dept,cg))
+      "My SID is %d\n"
+      "I am from %s Department and My CGPA is %f" % (name,sid,dept,cg))
 
 
 
