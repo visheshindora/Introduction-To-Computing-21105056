@@ -1,7 +1,7 @@
 # Q1
 
 
-print('Q1\n')
+print("\n\n\n\n\nQ1\n")
 
 given = input("Enter your string: ").lower()
 
@@ -36,7 +36,7 @@ frequency(given)
 
 # Q2
 
-print("Q2\n")
+print("\n\n\n\n\nQ2\n")
 
 print("Enter:-")
 date = int(input("Date: "))
@@ -77,7 +77,7 @@ next_date()
 
 
 # Q3
-print("Q3\n")
+print("\n\n\n\n\nQ3\n")
 
 def square():
     no_element = int(input("Enter number of elements: "))
@@ -98,7 +98,7 @@ square()
 
 
 # Q4
-print("Q4\n")
+print("\n\n\n\n\nQ4\n")
 
 def grades():
     grade = int(input("Enter Your Grade: "))
@@ -127,7 +127,7 @@ grades()
 
 
 # Q5
-print("Q5\n")
+print("\n\n\n\n\nQ5\n")
 
 def pattern():
     word = 'ABCDEFGHIJK'
@@ -143,7 +143,7 @@ pattern()
 
 # Q6
 
-print('Q6\n')
+print("\n\n\n\n\nQ6\n")
 
 def data_structure():
     data = {}
@@ -158,10 +158,8 @@ def data_structure():
         if condition=="n":
             break
 
-    print("Q6a\n")
     print('A. The dictionary is:\n', data)
 
-    print("Q6b\n")
     data_items=data.items()
     data_sort = sorted(data_items)
 
@@ -169,8 +167,7 @@ def data_structure():
 
     print('B. After sorting:\n', data)
 
-    print("Q6c")
-    SID=int(input('Enter SID: '))
+    SID=int(input('\nEnter SID: '))
     print("C. Name of student with SID", SID,"is: ", data[SID])
 data_structure()
 
@@ -178,3 +175,78 @@ data_structure()
 
 
 
+# Q7
+print("\n\n\n\n\nQ7\n")
+
+def fibonacci_series():
+    limit = int(input("Enter number of fibonacci sequence: "))
+    fibonacci = [0,1]
+    across = 1
+    while across <= limit-2:
+        fibonacci.append(fibonacci[len(fibonacci) - 2] + fibonacci[len(fibonacci) - 1])
+        across += 1
+
+    print(f"The fibonacci sequence is: {fibonacci}")
+
+    sum = 0
+
+    for i in fibonacci:
+        sum += i
+
+    avg = sum / len(fibonacci)
+
+    print(f"The average of the sequence = {avg}")
+fibonacci_series()
+
+
+
+
+
+
+# Q8
+print("\n\n\n\n\nQ8\n")
+
+def set():
+    set1 = {1, 2, 3, 4, 5}
+    set2 = {2, 4, 6, 8}
+    set3 = {1, 5, 9, 13, 17}
+    print(f"Set1 = {set1}\nSet2 = {set2}\nSet3 = {set3}\n")
+
+    # Q8a
+    condition_1 = set1.intersection(set2)
+    fusion = set1.union(set2)
+
+    new_set1 = fusion.difference(condition_1)
+    print(f"A. {new_set1}")
+
+    # Q8b
+    set_2a = new_set1.difference(set3)
+    set_2b = set3.difference(new_set1)
+
+    new_set2 = set_2a.union(set_2b)
+    print(f"B. {new_set2}")
+
+    # Q8c
+    condition_2 = set2.intersection(set3)
+    condition_3 = set1.intersection(set3)
+
+    triple_Intersection = set3.intersection(condition_1)
+
+    set_c = condition_1.union(condition_2.union(condition_3))
+
+    new_set3 = set_c.difference(triple_Intersection)
+
+    print(f"C. {new_set3}")
+
+    # Q8d
+    set_d = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+
+    new_set4 = set_d.difference(set1)
+
+    print(f"D. {new_set4}")
+
+    # Q8e
+    new_set5 = set_d.difference(fusion.union(set3))
+
+    print(f"E. {new_set5}")
+set()
